@@ -1923,6 +1923,7 @@ static void beginCustomMiningPhase()
         gSystemCustomMiningSolutionCache[i].reset();
     }
 
+    gSystemCustomMiningSolutionV2Cache.reset();
     gCustomMiningStorage.reset();
     gCustomMiningStats.phaseResetAndEpochAccumulate();
 }
@@ -3544,6 +3545,7 @@ static void resetCustomMining()
         gSystemCustomMiningSolutionCache[i].reset();
     }
 
+    gSystemCustomMiningSolutionV2Cache.reset();
     for (int i = 0; i < NUMBER_OF_COMPUTORS; ++i)
     {
         // Initialize the broadcast transaction buffer. Assume the all previous is broadcasted.
