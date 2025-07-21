@@ -20,7 +20,7 @@ jobs:
 
       - name: Add Upstream Remote
         run: |
-          git remote add upstream https://github.com/Qubic-core/core.git
+          git remote add upstream https://github.com/qubic/core.git
           git fetch upstream
 
       - name: Merge changes
