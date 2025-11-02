@@ -120,6 +120,12 @@
     <ClInclude Include="contracts\QBAY.h">
       <Filter>contracts</Filter>
     </ClInclude>
+    <ClInclude Include="contracts\Nostromo.h">
+      <Filter>contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="contracts\QBond.h">
+      <Filter>contracts</Filter>
+    </ClInclude>
     <ClInclude Include="contract_core\contract_def.h">
       <Filter>contract_core</Filter>
     </ClInclude>
@@ -267,6 +273,18 @@
       <Filter>platform</Filter>
     </ClInclude>
     <ClInclude Include="revenue.h" />
+    <ClInclude Include="contract_core\qpi_mining_impl.h">
+      <Filter>contract_core</Filter>
+    </ClInclude>
+    <ClInclude Include="ticking\pending_txs_pool.h">
+      <Filter>ticking</Filter>
+    </ClInclude>
+    <ClInclude Include="contracts\Qdraw.h">
+      <Filter>contracts</Filter>
+    </ClInclude>
+    <ClInclude Include="contracts\RandomLottery.h">
+      <Filter>contracts</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="platform">
